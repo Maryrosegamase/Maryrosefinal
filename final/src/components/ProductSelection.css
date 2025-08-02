@@ -1,0 +1,56 @@
+.meal-selector {
+  margin: 40px auto;
+  max-width: 500px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.meal-selector h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.people-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.people-input label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.people-input input {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.meal-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meal-item {
+  display: flex;
+  align-items: center;
+}
+
+.meal-item input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.meal-subtotal {
+  text-align: right;
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: bold;
+}

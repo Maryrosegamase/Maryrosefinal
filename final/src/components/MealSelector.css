@@ -1,0 +1,47 @@
+.meal-selector {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.meal-selector h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.people-input {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.people-input input {
+  width: 80px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.meal-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.meal-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.meal-option {
+  font-size: 1rem;
+  color: #333;
+}
+
+.meal-subtotal {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
